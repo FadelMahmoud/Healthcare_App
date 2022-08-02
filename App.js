@@ -16,6 +16,7 @@ import bodyPartsData from './assets/data/bodyPartsData';
 import SplashScreen from './src/screens/Splash';
 import Router from './src/navigation/Router';
 import HomeScreenHeader from './src/components/HomeScreenHeader';
+import HomeTabNavigator from './src/navigation/HomeTabNavigator';
 
 const App: () => Node = () => {
   return (

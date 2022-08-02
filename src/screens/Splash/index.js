@@ -24,7 +24,7 @@ const SplashScreen = (props) => {
 
       <Pressable 
         style={{alignItems: 'center'}}
-        onPress={ () => navigation.navigate('Home') }
+        onPress={ () => navigation.navigate('HomeTabNavigator' , { screen: 'Home' } ) }
       >
         <View style={styles.button}>
             <Text style={styles.buttonTexy}> Next </Text>

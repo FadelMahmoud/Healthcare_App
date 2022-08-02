@@ -1,13 +1,16 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
+import { View } from 'react-native';
+
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
-import HomeScreen from '../screens/Home';
+
+import HomeTabNavigator from '../navigation/HomeTabNavigator';
 import SplashScreen from '../screens/Splash';
+
 import doctorsData from '../../assets/data/doctorsData';
 import DoctorComponent from '../components/Doctor';
-import { View } from 'react-native';
-import HomeScreenHeader from '../components/HomeScreenHeader';
+
 
 const Stack = createStackNavigator();
 
@@ -25,11 +28,10 @@ const Router = () => {
        />
 
         <Stack.Screen
-            name={'Home'}
-            component={HomeScreen}
+            name={'HomeTabNavigator'}
+            component={HomeTabNavigator}
             options={{
-              headerLeft: ()=> null,
-              headerTitle: () => <HomeScreenHeader /> 
+              headerShown: false,
             }}
         />
         
