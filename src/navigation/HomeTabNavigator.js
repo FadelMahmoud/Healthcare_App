@@ -40,7 +40,6 @@ const HomeTabNavigator = () => {
         },
         tabBarActiveTintColor: '#37D6CA',
         tabBarShowLabel: false,
-        headerShown: false,
       })}
     >
 

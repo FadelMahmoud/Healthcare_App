@@ -10,7 +10,7 @@ const HomeScreenHeader = () => {
 
       <TouchableOpacity>
         <Image
-          source={require('../../../assets/images/drza.jpg')}
+          source={require('../../../assets/images/mahmoud.png')}
           style={styles.bodyPartImage}
         />
       </TouchableOpacity>
