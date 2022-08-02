@@ -23,10 +23,10 @@ export default [
     },
     {
       id: '3',
-      image: require('../images/drza.jpg'),
-      name: 'Dr. 7oda',
-      hospitalName: 'Power Hospital',
-      specialist: 'Muscles',
+      image: require('../images/somaa.jpg'),
+      name: 'Dr. Somaa',
+      hospitalName: 'Ponari Hospital',
+      specialist: 'Sheaka',
     },
     {
       id: '4',

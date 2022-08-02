@@ -50,6 +50,7 @@ const HomeScreen = () => {
             </Text>
             <FlatList
                 style={{height: 400}}
+                // MAYBE USE WINDOW HIEGHT 
                 showsVerticalScrollIndicator={false}
                 data={doctorsData}
                 renderItem={({item}) => 
