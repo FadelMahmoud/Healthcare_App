@@ -1,14 +1,17 @@
 /* eslint-disable prettier/prettier */
-import {View, Text, Image, TouchableOpacity} from 'react-native';
+import {View, Text, Image} from 'react-native';
 import React from 'react';
 import styles from './styles';
 
-const DoctorComponent = (props) => {
 
+const DoctorComponent = (props) => {
+  
   const data = props.data;
 
   return (
-    <TouchableOpacity style={styles.container}>
+    <View style={styles.container}
+    // onPress={() => Navigation.navigate('MakeAppointmentScreen' , { selectedDoctor : data }) }
+    >
       <Image
         source={data.image}
         style={styles.bodyPartImage}
@@ -23,7 +26,7 @@ const DoctorComponent = (props) => {
 
       <Text style={styles.specialistText}>{data.specialist}</Text>
 
-    </TouchableOpacity>
+    </View>
 
 
   );

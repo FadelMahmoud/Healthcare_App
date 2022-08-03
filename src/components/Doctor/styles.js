@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         borderRadius: 40,
         borderWidth: 1,
         borderColor:  '#7A7E82',
-        marginBottom:15,
+        // marginBottom:15,
     },
     bodyPartImage: {
         borderRadius: 50,
