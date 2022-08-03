@@ -11,5 +11,4 @@ Link of the design: https://dribbble.com/shots/18889099-Healthcare-app-Mobile-ap
 
 
 2- **Home screen** <br />
-<img src="https://user-images.githubusercontent.com/73054268/182272076-b7fc952e-ab54-4ab4-adf6-fc1a1aae4261.jpeg" width=400 height=750>
-
+<img src="https://user-images.githubusercontent.com/73054268/182418593-ffb66108-65fa-4741-9571-6737485513de.jpeg" width=400 height=750>
